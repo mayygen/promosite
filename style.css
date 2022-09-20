@@ -29,7 +29,7 @@ h1 {
 }
 h2{
   text-align:left;
-  color: black;
+  color: white;
   font-family: walkway, sans-serif;
   font-size: 25px;
   padding-top: 15px;
@@ -72,8 +72,6 @@ div.item{
   padding-top:100px;
 
 }
-
-
 
 
 div.sticky{
