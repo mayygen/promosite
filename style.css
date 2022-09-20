@@ -4,17 +4,19 @@
 
 }
 a:link {
-  color: black;
+  color: white;
+  opacity: 0.95;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color:black;
+  opacity: .7;
 }
 
 
@@ -35,6 +37,7 @@ h2{
 }
 
 h3{
+  font-weight: bold;
   color: white;
   font-family: walkway, sans-serif;
   font-size: 25px;
@@ -44,16 +47,21 @@ h3{
 
 p1{
   color: white;
+  font-weight: bold;
   font-family: walkway, sans-serif;
   font-size: 20px;
   line-height: 200%;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 #header {
   background-size: cover;
   background-attachment: fixed;
   background-image: url(photos/eden_vertigo.png);
+}
+
+#icons{
+  padding-top:50px;
 }
 
 div.item{
@@ -66,9 +74,6 @@ div.item{
 }
 
 
-div.brightness img:hover{
-    opacity: .7;
-}
 
 
 div.sticky{
